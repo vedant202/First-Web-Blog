@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>Document</title>
+</head>
+<script src="./js/header.js" type="module"></script>
+<script src="./js/footer.js" type="module"></script>
+
+<body>
+    <my-header></my-header>
+    <main>
+        <div class="container">
+            <div class="container2">
+                <div class="title">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="container3">
+
+                    <div class="row1">
+                        <div class="coloum">
+                            <h3>Send us a message</h3>
+                            <div class="form">
+                                <form method="post" id="form">
+                                    <div class="row">
+                                        <div class="col1">
+                                            <label for="name">Name : </label>
+                                            <input id="name" class="form-control" name="name" type="name"
+                                                placeholder="Your Name" />
+                                        </div>
+                                        <div class="col2">
+                                            <label for="email">Email : </label>
+                                            <input id="email" class="form-control" name="email" type="email" placeholder="Email" />
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col1">
+                                            <label for="phone">Phone : </label>
+                                            <input id="phone" name="phone" class="form-control" type="phone" placeholder="Phone" />
+                                        </div>
+                                        <div class="col2">
+                                            <label for="company">Company : </label>
+                                            <input id="company" name="company" class="form-control" type="text" placeholder="company" />
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col1">
+                                            <div class="message">
+                                                <label for="Message">Message : </label>
+                                            <textarea id="message" name="message" type="message"
+                                                placeholder="Write Your Message" rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <button type="submit" id="submit" class="submit">
+                                            SEND MESSAGE
+                                        </button>
+                                    </div>
+                            </div>
+
+                        </div>
+                        <div class="coloum2">
+                            
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <my-footer></my-footer>
+
+    <script src="./js/contact.js" type="module"></script> 
+</body>
+
+</html>

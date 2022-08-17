@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    height: 55px;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    height: 55px;
+    width: 155px;
+    color: white;
+    align-items: center;
+
+}
+.container-nav li{
+    padding: 15px;
+    list-style: none;
+    color: white;
+}
+footer{
+    height: 55px;
+    color: white;
+    background-color: black;
+}
+.container{
+    height: calc(100vh - 55px - 55px);
+}

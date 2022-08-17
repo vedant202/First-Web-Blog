@@ -1,0 +1,128 @@
+.jumbotron{
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--voi);
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+
+
+.blog-post{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 0 2rem 3rem;
+    display: block;
+}
+.blog-post h1{
+    font-size: 40px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col1{
+    max-width: 81.33333%;
+    /* background-color: aqua; */
+    color: #032846;
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mt-3{
+    margin-top: 1rem;
+}
+
+.col1 h1{
+    padding-bottom: 1rem;
+}
+article hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+article h4{
+    color: #032846;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+.blog-post p{
+    padding: 0.73rem;
+    font-size: 24px;
+    font-weight: normal;
+    color: #77b5e9;
+}
+
+.blogpost-img{
+    display: flex;
+    justify-content: center;
+}
+
+.blogpost-img img{
+    width:500px
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.blog-post blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #27557a;
+    margin: 1.5em 10px;
+    padding: 1em 20px;
+    quotes: "“" "”" "‘" "’";
+    font-style: italic;
+}
+
+.avatar{
+    width:3.5rem;
+    border-radius: 50%;
+}
+
+.col2{
+    max-width: 13%;
+    /* background-color: burlywood; */
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    /* align-items: center; */
+}
+
+.author-img{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.author-name{
+    font-size: 25px;
+    color: #1c79c5;
+    text-align: center;
+}
+.share-post h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.share-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.share-buttons a{
+    margin: 10px;
+}

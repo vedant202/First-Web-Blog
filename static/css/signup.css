@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(239 235 235 / 65%);
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+.websiteInfo {
+    width: 16em;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 3em;
+    left: 2em;
+}
+.signupBtn{
+    height: 2.6em;
+    width: 17em;
+    font-size: 1.1em;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+.signupBtn:hover{
+    background-color: #dbaaaa;
+    border: 2px solid red;
+}
+
+.websiteInfo p{
+    margin-top: 1em;
+    
+}
+.card{
+    position: relative;
+    width: 36em;
+    right: 6em;
+    top: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 17px 2px;
+    padding: 15px;
+}
+.cardHead{
+    padding: 1em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+.col1,.col2{
+    padding: 10px;
+
+}
+
+input {
+    width: 16em;
+    height: 3em;
+    margin-top: 1em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}

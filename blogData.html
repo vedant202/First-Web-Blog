@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/">
+    <title>Add Data</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/blogData.css">
+</head>
+<script src="./js/header.js" type="module"></script>
+<script src="./js/footer.js" type="module"></script>
+
+<body>
+    <my-header></my-header>
+    <main>
+        <div class="container">
+            <div class="heading">
+            <h2>For Admin Use Only</h2>
+            </div>
+            <hr>
+            <form id="formData">
+                <div class="row">
+                    <div class="col1">
+                        <label for="Title">Title</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" name="Title" id="Title" placeholder="Title"  />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="Author Name">Author</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" name="author" id="author" placeholder="Author"  />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="Para1">Para1</label>
+                    </div>
+                    <div class="col2">
+                        <textarea name="Para1" id="Para1" placeholder="Para1" cols="100" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="Para2">Para2</label>
+                    </div>
+                    <div class="col2">
+                        <textarea name="Para2" id="Para2" placeholder="Para2" cols="100" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="Para3">Para3</label>
+                    </div>
+                    <div class="col2">
+                        <textarea name="Para3" id="Para3" placeholder="Para3" cols="100" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="Para4">Para4</label>
+                    </div>
+                    <div class="col2">
+                        <textarea name="Para4" id="Para4" placeholder="Para4" cols="100" rows="10"></textarea>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="image">Upload Image</label>
+                    </div>
+                    <div class="col2">
+                        <input type="file" id="image" name="image" value="" required>
+                    </div>
+                </div>
+
+                <div class="row butn">
+                    <button type="submit" id="submit" name="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <my-footer></my-footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./js/blogData.js" type="module"></script>
+</body>
+
+</html>

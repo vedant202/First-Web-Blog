@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("../imgs/back.jpg");
+}
+.header1{
+    text-align: center;
+    color: #0BB8D2;
+    font-weight:bolder;
+    font-size: 2.5em;
+}
+
+.headerPara{
+    text-align: center;
+    /* font-family:; */
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.section2{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+.card{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+}
+
+.cardHeader{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cardMain{
+    padding: 15px;
+}
+.disFont{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.card2Header{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboutPara{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutBtn{
+    height: 5em;
+    width: 13em;
+    border-radius: 35px;
+    border: 4px solid orangered;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.aboutBtn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.orgBack{
+    background-color: rgb(231, 117, 76);
+}
+
+.aboutImageLogo{
+    background-image: url("../imgs/aboutImg.jpg");
+    width: 213px;
+    height: 213px;
+    background-position:50% 50%;
+    margin: -95px auto 0;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.card3Name{
+    text-align: center;
+    color: white;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+.card3Main{
+    text-align: center;
+    color: white;
+}
